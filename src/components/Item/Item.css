@@ -1,0 +1,23 @@
+.CardProductos{
+    background-color: grey;
+    border-radius: 10px;
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardProductos img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.CardProductos button{
+    background-color: rgb(85, 85, 88);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}

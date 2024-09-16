@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    border: solid 1px black;
+    padding: 1rem;
+    background-color: grey;
+}
+
+.container img{
+    width: 150px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin: 1rem;
+}

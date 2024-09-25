@@ -1,12 +1,22 @@
 
 import "./CartWidget.css"
+import { useContext } from "react"
+import { CarritoContext } from "../../context/CarritoContext"
+import { Link } from "react-router-dom"
 
 const CartWidget = () => {
+
+  const {cantidadTotal} = useContext(CarritoContext)
+  
   return (
-    <button>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLwVC_Iav2rLXPGv1-CKcF_BhueLAdTBtmSnRL3AZWvcXAvpP" alt="Carrito de compras" />
-      <strong>2</strong>
-    </button>
+    <div>
+      <Link to="/cart">
+      <img src="./img/carrito.jfif" alt="Carrito de compras" />
+      {
+        cantidadTotal > 0 ? <strong>{cantidadTotal}</strong> : null
+      }
+      </Link>  
+    </div>
   )
 }
 

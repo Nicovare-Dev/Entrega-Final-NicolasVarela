@@ -5,6 +5,9 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CarritoProvider } from "./context/CarritoContext";
 import Cart from "./components/Cart/Cart";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ToastContainer  } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
             <Route path="/cart" element={<Cart/>}/>
           </Routes>
       </CarritoProvider>
+      <ToastContainer/>
       </BrowserRouter>
     </>
   );

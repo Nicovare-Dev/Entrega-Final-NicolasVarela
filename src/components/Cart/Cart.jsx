@@ -19,7 +19,7 @@ const Cart = () => {
   return (
     <div>
         {
-            carrito.map(producto => <CartItem key={producto.id} {...producto}/> )
+            carrito.map((producto, index) => <CartItem key={producto.id || index} {...producto}/> )
         }
 
         <h3>Total: ${total}</h3>

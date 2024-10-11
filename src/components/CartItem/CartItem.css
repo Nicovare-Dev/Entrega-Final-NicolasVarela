@@ -1,0 +1,48 @@
+.cart-item {
+    margin: 20px;
+    color: beige;
+    font-family: 'Aileron', sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(26, 26, 26);
+    padding-right: 30px;
+    width: 815px;
+  }
+  
+  .cart-item h4 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding-top: 38px;
+  }
+  
+  .cart-item button {
+    background: beige;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Aileron', sans-serif;
+    font-size: 16px;
+    transition: transform 0.2s;
+    margin: 10px;
+    height: 30px;
+    margin-top: 47px;
+  }
+  
+  .cart-item button:hover {
+    transform: scale(1.05);
+  }
+
+  .cart-item p {
+    margin: 10px;
+    padding-top: 38.3px;
+  }
+
+  .cart-img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  }

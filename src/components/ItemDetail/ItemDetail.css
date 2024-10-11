@@ -1,13 +1,53 @@
-.container{
+.item-detail-container {
+    background-color: rgb(26, 26, 26);
+    color: beige;
+    margin: 20px 0;
+    padding: 15px;
+    font-family: 'Aileron', sans-serif;
     text-align: center;
-    border: solid 1px black;
-    padding: 1rem;
-    background-color: grey;
-}
-
-.container img{
-    width: 150px;
-    border-radius: 10px;
-    border: solid 1px black;
-    margin: 1rem;
-}
+  }
+  
+  .item-detail-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .item-detail-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .item-detail-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .item-detail-image {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .item-detail-stock {
+    font-size: 16px;
+    color: beige;
+    margin-bottom: 10px;
+  }
+  
+  .item-detail-button {
+    background: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Aileron', sans-serif;
+    padding: 5px;
+  }
+  
+  .item-detail-button:hover {
+    background-color: rgb(221, 221, 206);
+  }

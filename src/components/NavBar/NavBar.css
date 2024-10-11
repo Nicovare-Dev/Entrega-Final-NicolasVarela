@@ -1,20 +1,35 @@
- header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 16px;
-    border-bottom: 1px solid black ;
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    color: beige;
+    padding: 10px;
+    transition: top 0.3s;
 }
 
-nav{
+.navbar.scrolled {
+    top: -60px;
+}
+
+.Logo{
+    width: 100px;
+    margin-left: 20px;
+}
+
+.navbar nav{
+    color: beige ;
     margin-right: 130px;
 }
-ul{ 
+
+.navbar ul{ 
+    color: beige;
     display: flex;
     font-weight: 540;
     list-style: none;
 }
 
-li{
+.navbar li{
+    color: beige;
     margin: 10px;
 } 

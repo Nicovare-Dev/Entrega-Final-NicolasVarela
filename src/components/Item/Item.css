@@ -1,23 +1,50 @@
-.CardProductos{
-    background-color: grey;
-    border-radius: 10px;
-    width: 20rem;
+.item-container {
+    background-color: rgb(26, 26, 26);
+    color: beige;
     margin: 1rem;
     padding: 1rem;
-    flex-direction: column;
-    align-items: center;
-}
-
-.CardProductos img {
-    width: 150px;
-    object-fit: contain;
-}
-
-.CardProductos button{
-    background-color: rgb(85, 85, 88);
-    color: white;
-    font-size: 1.2rem;
+    font-family: 'Aileron', sans-serif;
     border-radius: 10px;
+    text-align: center;
+    width: 20rem;
+    margin-left: 62px;
+    position: relative;
+    padding-bottom: 4rem;
+  }
+
+  .item-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .item-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  
+  .item-button {
+    cursor: pointer;
+    font-size: 16px;  
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    font-family: 'Aileron', sans-serif;
+    background: beige;
+    color: black;
     border: none;
-    padding: 10px 20px;
-}
+    border-radius: 5px;
+  }
+  
+  .item-button:hover {
+    transform: scale(1.01);
+  }
+  

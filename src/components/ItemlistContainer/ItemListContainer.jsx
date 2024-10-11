@@ -31,7 +31,6 @@ const ItemListContainer = () => {
       console.log(error)
     })
     .finally(() => {
-      console.log("proceso finalizado")
       setLoading(false)
     })
   },[idCategoria])
@@ -39,7 +38,7 @@ const ItemListContainer = () => {
 
   return (
     <>
-      <h2>Mis productos</h2>
+      <h2>Productos</h2>
       {
         loading ? <Loader/> : <ItemList productos={productos}/> 
       }

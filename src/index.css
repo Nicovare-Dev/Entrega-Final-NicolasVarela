@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: beige;
+    font-family: 'Aileron', sans-serif;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: beige;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    font-family: 'Aileron', sans-serif;
+    background: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }

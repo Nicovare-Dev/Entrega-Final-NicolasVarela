@@ -1,6 +1,6 @@
 import "./ItemListContainer.css"
 import { useState, useEffect } from "react"
-import ItemList from "../itemList/itemList"
+import ItemList from "../itemList/ItemList.jsx"
 import { useParams } from "react-router-dom"
 import Loader from "../Loader/Loader"
 import { db } from "../../services/config"
